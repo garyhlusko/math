@@ -17,7 +17,7 @@ run `python3 primes.py`
 ### C
 ### Ubuntu
 You'll have to configure the PGcon with your connection.
-afterwards compile with  gcc -o prime primes.c -L/usr/local/pgsql/lib -lpq -lm
+afterwards compile with  `gcc -o prime primes.c -L/usr/local/pgsql/lib -lpq -lm`
 you can then run with `./prime`
 
 ### Things that can be improved
